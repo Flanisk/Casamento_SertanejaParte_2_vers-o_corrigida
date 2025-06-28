@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casamento Sertanejo</title>
+
+    <!------------------bootstrap------------------------------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!------------------bootstrap------------------------------------>
+
+    <!------------------icons--------------------------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!------------------icons--------------------------------------------->
+
+    <!-------------------CSS---------------------------------------------->
+    <link rel="stylesheet" href="../css/vestidos.css">
+    <!-------------------CSS---------------------------------------------->
+</head>
+<body>
+    <header class="header">
+            <nav class="navbar">
+                    <ul class="list">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../paginas/planos.html">PLANOS</a></li>
+                <li><a href="../paginas/vestidos.html">VESTIDOS</a></li>
+                <li><a href="../paginas/coletes.html">COLETES MASCULINOS</a></li>
+                <li><a href="../paginas/places.html">PLACES</a></li>
+                <button class="btn btn-outline-dark" type="button" data-bs-toggle="modal" data-bs-target= "#exampleModalLabel" >Cadastrar</button>
+                </ul>
+            </nav>
+    </header>
+
+    <section class="navbar2" style="background-color: black; align-items: center; display: flex; justify-content: center; height: 50px;">
+        <ul class="list">
+            <li><a href="../paginas/planos.html" style="color: aliceblue;">MAIS VENDIDOS</a></li>
+            <li><a href="../paginas/planos.html" style="color: aliceblue;">COLEÇÃO DE OUTONO</a></li>
+            <li><a href="../paginas/planos.html" style="color: aliceblue;">SAIAS</a></li>
+            <li><a href="../paginas/planos.html" style="color: aliceblue;">VESTIDOS</a></li>
+            <li><a href="../paginas/planos.html" style="color: aliceblue;">CONVIDADOS</a></li>
+        </ul>
+    </section>
+
+    <section class="secao1" style="margin: 20px 0px;">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-2">
+                    Parcele quantas vezes você quiser!
+                </div>
+
+                <div class="col-lg-6" style="justify-content: center;  display: flex;">
+                    <button type="button" class="btn btn-dark" data-bs-toggle="offcanvas" href="#offcanvasTop" role="button" aria-controls="offcanvasTop" style="box-shadow: 0px 15px 15px #999999;">filtrar</button>
+                </div>
+
+                <div class="col-lg-2" style="justify-content: end; display: flex;">
+                    <h3>300 itens</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao2" style="height: 60vh auto; margin-top: 5px;">
+
+        <div class="container py-12">
+            <div class="row">
+                <div class="ordenar col-lg-12" style="height: 10px;">
+                    <label for="" s>ORDENAR POR:</label>
+                    <select name="ordenar" class="">
+                        <option value="">Relevância</option>
+                        <option value="GTI">Mais vendidos</option>
+                        <option value="GTI">Mais acessados</option>
+                        <option value="GTI">Por ordem (A-Z)</option>
+                        <option value="GTI">Por ordem (Z-A)</option>
+                    </select>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/pexels-reyna-3347373.jpg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$119</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/pexels-sahar-photography-914616632-19919927.jpg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$99</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/WhatsApp Image 2025-06-27 at 21.28.26.jpeg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$129</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/WhatsApp Image 2025-06-27 at 21.28.28 (1).jpeg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$89</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/WhatsApp Image 2025-06-27 at 21.28.28 (2).jpeg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$129</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/WhatsApp Image 2025-06-27 at 21.28.28.jpeg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$119</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/WhatsApp Image 2025-06-27 at 21.28.29 (1).jpeg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$79</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/WhatsApp Image 2025-06-27 at 21.28.29.jpeg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$139</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/WhatsApp Image 2025-06-27 at 21.28.30.jpeg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$89</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/WhatsApp Image 2025-06-27 at 21.28.33.jpeg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$119</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/WhatsApp Image 2025-06-27 at 21.28.34.jpeg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$219</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="../imgs/vestidos/WhatsApp Image 2025-06-27 at 21.31.12.jpeg" alt="" style="height: 320px; width: 220px; border-radius: 20px; display: block;">
+                        <h1 style="font-size: 20px;">Vestido</h1>
+                        <p style="font-size: 15px;">R$119</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao3" style="justify-content: center; display: flex; margin: 30px 0px;">
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">2</button>
+            <button type="button" class="btn btn-secondary">3</button>
+        </div>
+    </section>
+
+
+
+
+
+    <!----------------footer-------------------------------------->
+    <footer class="footer" style="padding: 40px;">
+        <div class="py-12">
+            <div class="row">
+                <div class="col-lg-4" style="align-items: center; display: flex; justify-content: center;">
+                    <img src="../imgs/casar.com-removebg-preview.png" alt="" style="height: 120px;">
+                </div>
+
+                <div class="col-lg-4" style="color: aliceblue;">
+                    <P style="font-size: 15px;">INSTAGRAM: CASAMENTOS & XORORÓ</P>
+                    <P style="font-size: 15px;">YOUTUBE: CASAMENTOS & XORORÓ</P>
+                    <P style="font-size: 15px;">X: CASAMENTOS & XORORÓ</P>
+                    <P style="font-size: 15px;">PINTEREST</P>
+                </div>
+
+                <div class="col-lg-4">
+                    <h3 style="font-size: 20px; color: aliceblue;">MINHA CONTA</h3>
+                    <P style="font-size: 15px; color: aliceblue;">LOGIN</P>
+                    <P style="font-size: 15px; color: aliceblue;">AJUDA</P>
+                </div>
+
+                
+            </div>
+        </div>
+    </footer>
+<!----------------footer-------------------------------------->
+
+
+
+
+    <!-------------------OFFCANVAS------------------------------------------->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        ...
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>

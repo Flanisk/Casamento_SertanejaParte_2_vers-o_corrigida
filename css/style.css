@@ -1,0 +1,164 @@
+
+.navbar{
+    display: flex;
+    padding: 10px 100px;
+    margin: 0px 40px;
+    backdrop-filter: blur(30px);
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid black;
+}
+.logo{
+    width: 100px;
+    border-radius: 60%;
+}
+.list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    list-style: none;
+}
+.list li{
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+.list li a{
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+    transition: 0.5s;
+}
+.list li a:hover{
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0%;
+    transition: 0.5s;
+}
+
+.header{
+    height: 90dvh;
+    background-image: url(../imgs/pexels-enesbeydilli-29746616.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 15px 15px #999999;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    padding: 50px;
+}
+
+.secao0{
+    padding: 100px 500px;
+}
+
+
+
+.secao0 h2{
+    font-family: Roundhand cursive;
+    font-size: large;
+}
+
+.secao0 h3{
+    font-size: smaller;
+}
+
+.secao1{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao1card{
+    background-color: #C57B57;
+    padding: 20px 390px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.secao2{
+    background-image: url(../imgs/pexels-fariphotography-803975.jpg);
+    height: 100dvh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.secao2 img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.background {
+    background-image: url('cabana.jpg'); /* substitua com a imagem do fundo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* camada escura transparente */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.card-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.card img {
+    border-radius: 10px;
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+.card{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s linear;
+    align-items: center;
+    display: flex;
+}
+
+.card img{
+    transition: all 0.5s linear;
+}
+
+
+.card:hover img{
+    scale: 1.5;
+}
+
+.secao3{
+    margin: 100px 200px;
+}
+
+
+
+
+.footer{
+    background-color: rgb(27, 27, 27);
+    height: 40dvh;
+}
+
+/*PAGINA-PLACES*/
+
